@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+- name: sumup
+  database: '{{ "database_name" }}'
+  schema: '{{ "schema_name" }}'
+  tables:
+  - name: raw_financials
+    identifier: '{{ "raw_financials" }}'
+    freshness:
+      warn_after: {count: 25, period: hour}
+      
+  - name: raw_funnel
+    identifier: '{{ "raw_funnel" }}'
+    freshness:
+      warn_after: {count: 25, period: hour}
+      
+  - name: raw_sales
+    identifier: '{{ "raw_sales" }}'
+    freshness:
+      warn_after: {count: 25, period: hour}
+      
+  - name: raw_store
+    identifier: '{{ "raw_store" }}'
+    freshness:
+      warn_after: {count: 25, period: hour}
