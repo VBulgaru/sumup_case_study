@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: rep_channel_performance
+    meta:
+      owner:
+        name: First & Last Name
+        email: email@email.com
+      domain:
+        Revenue Operations
+    description: Best and worst acquisition channel by country in 2023
+    columns:
+      - name: column name
+        description: description name
+        data_tests:
+          - not_null
+
+  - name: rep_top_sellers
+    meta:
+      owner:
+        name: First & Last Name
+        email: email@email.com
+      domain:
+        Revenue Operations
+    description: Top 3 best performing sellers based on total lifetime value brought to the company. Alternatively, one could use either the size of the customer or the amount of customers
+    columns:
+      - name: column name
+        description: description name
+        data_tests:
+          - not_null
+          
+  - name: rep_lead_live_cycle
+    meta:
+      owner:
+        name: First & Last Name
+        email: email@email.com
+      domain:
+        Revenue Operations
+    description: Overall and by top 5 typologies (based on total lifetime value) duration of lead to live cycle.
+    columns:
+      - name: column name
+        description: description name
+        data_tests:
+          - not_null
