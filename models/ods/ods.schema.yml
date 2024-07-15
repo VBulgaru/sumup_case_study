@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: ods_financials
+    columns:
+      - name: customer_id
+        data_tests:
+          - not_null
+
+  - name: ods_funnel
+    columns:
+      - name: customer_id
+        data_tests:
+          - not_null
+          
+  - name: ods_sales
+    columns:
+      - name: customer_id
+        data_tests:
+          - not_null
+
+  - name: ods_store
+    columns:
+      - name: customer_id
+        data_tests:
+          - not_null
