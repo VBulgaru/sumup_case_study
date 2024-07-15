@@ -20,6 +20,7 @@ I have decided to go with a common "bronze - silver - golden"like layer architec
 
 The lineage of the models is described in the picture below:
 <img width="893" alt="image" src="https://github.com/user-attachments/assets/afa1c15a-44f1-4270-9eb4-10c67a4c4186">
+
 The name of the tables corresponds  to the model name. 
 
 ## Data assumptions
@@ -31,8 +32,13 @@ During the creation of the models, several assumptions have been made:
 
 ## Task outcomes:
 #1. Which acquisition channel performed the best in each country in 2023? Which acquisition channel performed the worst in each country in 2023?
+
 <img width="924" alt="image" src="https://github.com/user-attachments/assets/cc103477-b63d-4846-abc2-0b7d7e73d54a">
+
 #2. Who were the top 3 best performing sales reps in 2023?
+
 <img width="924" alt="image" src="https://github.com/user-attachments/assets/7a844b49-e5e0-47e2-b12a-19fba3c91e80">
+
 #3. How long was the average lead to live cycle, overall and by top 5 typologies?
+
 <img width="908" alt="image" src="https://github.com/user-attachments/assets/de5a3e46-2fb8-4823-ba76-3b9b6adbdc4c">
