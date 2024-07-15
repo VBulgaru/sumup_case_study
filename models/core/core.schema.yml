@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: dim_customer
+    meta:
+      owner:
+        name: First & Last Name
+        email: email@email.com
+      domain:
+        Revenue Operations
+    description: Dimensionalized customer table. Assumption: financial customer data is complete and the source of truth.
+    columns:
+      - name: column name
+        description: description name
+        data_tests:
+          - not_null
+      - name: column name 2
+        description: ..
+        data_tests:
+          - unique
+
+  - name: fct_customer
+    meta:
+      owner:
+        name: First & Last Name
+        email: email@email.com
+      domain:
+        Revenue Operations
+    description: Fact (metric) customer table. Assumption: financial customer data is complete and the source of truth.
+    columns:
+      - name: column name
+        description: description name
+        data_tests:
+          - not_null
+      - name: column name 2
+        description: ..
+        data_tests:
+          - unique
