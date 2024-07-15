@@ -40,7 +40,7 @@ WITH dim AS (
 
   SELECT
     'By Typology' AS calculation_type
-    , customer_typology, 
+    , customer_typology 
     , sum(amount_days_lead_to_live) / count(distinct customer_id) as avg_days_lead_to_live
     , sum(five_year_lifetime_value_eur) as five_year_lifetime_value_eur
   FROM aggregated
