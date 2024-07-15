@@ -46,7 +46,7 @@ WITH dim AS (
   FROM aggregated
   GROUP BY 1,2
   ORDER BY five_year_lifetime_value_eur DESC
-  LIMIT 5 -- for top 5 typologies incl. Others
+  LIMIT 6 -- for top 5 typologies incl. Others + the overall
 )
 
 SELECT * FROM final
